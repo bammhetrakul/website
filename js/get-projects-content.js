@@ -27,19 +27,19 @@ const getProjectContent = () => {
 	const getPreviousNextLinks = () => {
 		if(getCurrentIndex() === 0) {
 			return `
-				<a class="nextLink" href="./${nextProject.ref}.html">→<br />Next ——<br />${nextProject.title}</a>
+				<a class="nextLink" href="./${nextProject.ref}.html">→<br />Next —<br />${nextProject.title}</a>
 			`
 		}
 		if(projectsAmount === getCurrentIndex()+1) {
 			return `
-				<a href="./${previousProject.ref}.html">← <br />Previous ——<br />${previousProject.title}</a>
+				<a href="./${previousProject.ref}.html">← <br />Previous —<br />${previousProject.title}</a>
 			`
 		}
 		if(projectsAmount > getCurrentIndex()+1) {
 			return `
-				<a href="./${previousProject.ref}.html">← <br />Previous ——<br />${previousProject.title}</a>
+				<a href="./${previousProject.ref}.html">← <br />Previous —<br />${previousProject.title}</a>
 				<br />
-				<a class="nextLink" href="./${nextProject.ref}.html">→<br />Next ——<br />${nextProject.title}</a>
+				<a class="nextLink" href="./${nextProject.ref}.html">→<br />Next —<br />${nextProject.title}</a>
 			`
 		}
 	}
