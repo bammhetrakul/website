@@ -33,6 +33,11 @@ const projectIntros = projectsData.map((project, index) => {
 				<a class="introProjectLink" href="projects/${project.ref}.html">
 	  			${project.title}
 				</a>
+				<a class="introProjectImageLink" href="projects/${project.ref}.html">
+					<img
+						src="./projects/images/${project.introImage}"
+					/>
+				</a>
 			</h2>
     </div>
 	`
