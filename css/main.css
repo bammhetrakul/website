@@ -123,8 +123,21 @@ img {
   display: none;
 }
 
+.contactDetails {
+  position: relative;
+}
+
 .contactDetails summary {
   display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+
+.contactDetails span {
+  position: absolute;
+  right: 0;
+  background: white;
+  box-shadow: 0 0 20px 20px white;
 }
 
 .imagesMenu {

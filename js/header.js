@@ -9,7 +9,9 @@ const getMainHeader = (rootElement, url) => {
       <div class="menuSection">
         <details class="contactDetails">
           <summary>contact</summary>
-          banana@gmail.com
+          <span>
+            hetrakul.c@gmail.com
+          </span>
         </details>
       </div>
     </header>
