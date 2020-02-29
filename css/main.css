@@ -129,6 +129,12 @@ img {
   .homeContainer .mainHeader {
     margin-bottom: calc(var(--pagePadding) * 2);
   }
+
+  .projectImage {
+    margin: 0 calc(var(--pagePadding) * -1);
+    width: calc(calc(var(--pagePadding) * 2) + 100%);
+    max-width: unset;
+  }
 }
 
 .menuSection {
@@ -145,15 +151,6 @@ img {
 
 .contactDetails summary {
   display: inline-block;
-  z-index: 1;
-  position: relative;
-}
-
-.contactDetails span {
-  position: absolute;
-  right: 0;
-  background: white;
-  box-shadow: 0 0 20px 20px white;
 }
 
 .imagesMenuImageSection {
